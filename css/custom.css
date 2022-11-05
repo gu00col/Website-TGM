@@ -1,0 +1,186 @@
+:root {
+    --primary: #3E6913;
+    --secundary: #523F39;
+    --primary-soft: #E1F0DD;
+}
+
+/* Textos */
+.text-primary {
+    color: #3E6913 !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+/* Fundos */
+.bg-primary {
+    background: #3E6913 !important;
+}
+.bg-secondary {
+    background: #E1F0DD !important;
+}
+.bg-brown {
+    background: #523F39 !important;
+}
+/* Botões */
+.btn-xl {
+    font-size: 1.5rem !important;
+}
+
+.btn-white:hover {
+    background-color: #d2eeb6 !important;
+    color: #523F39 !important;
+}
+.btn-primary {
+    background-color: #3E6913 !important;
+    color: #ffffff !important;
+}
+.btn-primary:hover {
+    background-color: #ffffff !important;
+    color: #3E6913 !important;
+}
+
+
+/* Responsivo */
+@media (max-width: 576px) {
+
+    .btn-xl {
+        font-size: 1rem !important;
+    }
+}
+
+/* NavBar */
+.nav-link {
+    font-weight: 400 !important;
+    color: #E1F0DD !important;
+    font-size: 1.3rem !important;
+}
+
+.nav-link:hover {
+    color: #3E6913!important;
+}
+
+.nav-link.active {
+    font-weight: bold !important;
+    color: #3E6913 !important;
+}
+
+.bg-primary {
+    background: #3E6913 !important;
+}
+
+.navbar {
+    box-shadow: none !important;
+}
+
+.socials a {
+    font-size: 1.5rem !important;
+}
+
+.socials a:hover {
+    background-color: #ffffff !important;
+    color: #3E6913 !important;
+}
+
+/* Vantagens */
+
+.border-fancy {
+    margin-top: -30px !important;
+    
+    border: 35px solid transparent !important;
+    border-image: url('../img/fancy.png') 30 repeat !important;
+}
+
+.card-vantagens:hover {
+    background: #dfe7dd !important;
+}
+.card-vantagens:hover p {
+    color: #040e02 !important;
+}
+
+
+/* Responsivo */
+@media (max-width: 576px) {
+    
+    .card-vantagens{
+        min-height: 200px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-items: center !important;
+        
+    }
+    .border-fancy {
+        margin-top: -30px !important;
+        padding: 0px !important;
+        margin-bottom: 0px !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        border: 35px solid transparent !important;
+        border-image: url('../img/fancy.png') 30 repeat !important;
+    }
+    .carousel-control-prev{
+        left: -50px !important;
+    }
+    .carousel-control-next{
+        right: -50px !important;
+    }
+}
+
+
+/* Missão visão valores */
+
+.aba-valores button{
+    background: #ffffff !important;
+color:#3E6913 !important;
+border: 1px solid #dfdfdf !important;
+    
+}
+
+.nav-tabs .nav-link:hover {
+    font-weight: bold !important;
+    border-bottom: 2px solid #3E6913 !important;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-bottom: 2px solid #3E6913 !important;
+}
+/* Responsivo */
+@media (max-width: 576px) {
+    .links-missao{
+        font-size: 0.9rem !important;
+    }
+}
+
+
+
+/* Produtos */
+
+.bg-prods {
+        background: url('../img/produtos.svg') left no-repeat;
+}
+
+.img-produtos{
+    width: 600px !important;
+}
+
+.borda-esquerda {
+    border-left: 5px solid #3E6913 !important;
+}
+
+/* Responsivo */
+@media (max-width: 576px) {
+    .img-produtos{
+        width: 100% !important;
+        margin-bottom: 50px !important;
+    }
+}
+
+
+/* Contatos */
+
+/* Responsivo */
+@media (max-width: 576px) {
+    .box-contatos{
+        margin-top: 30px !important;
+    }
+}
