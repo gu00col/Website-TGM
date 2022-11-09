@@ -148,6 +148,7 @@ border: 1px solid #dfdfdf !important;
 @media (max-width: 576px) {
     .links-missao{
         font-size: 0.9rem !important;
+        margin-right: 2px !important;
     }
 }
 
